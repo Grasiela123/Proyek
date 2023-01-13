@@ -1,0 +1,439 @@
+* {
+    /* background-color: white; */
+    list-style: none;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.Navbar {
+    background-color: rgb(29, 132, 229);
+
+}
+
+.Ullist {
+    /* background-color: rgb(29, 132, 229); */
+    /* padding: 10px; */
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.Log li {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    float: right;
+}
+
+
+.Navbar h1 {
+    /* background-color: red; */
+    font-size: 90px;
+    font-weight: 30px;
+    color: white;
+    padding-top: 30px;
+}
+
+.Navbar li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.All-menus {
+    background-color: rgb(10, 74, 134);
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 3px 15px 5px grey;
+    margin-bottom: 50px;
+}
+
+/* Jika search barnya sudah ditambahkan pindah margin bottomnya ke css untuk search bar */
+/* Margin bottom punyanya All-menus */
+
+.All-menus li {
+    /* background-color: rgb(5, 86, 5); */
+    border-radius: 6px;
+}
+
+.Home-menu a:hover,
+.Category-menu a:hover,
+.History-menu a:hover,
+.Profile-menu a:hover,
+.About-menu a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.Home-menu a,
+.Category-menu a,
+.History-menu a,
+.Profile-menu a,
+.About-menu a {
+    color: white;
+    /* margin-top: 20px; */
+    padding: 6px 14px;
+
+}
+
+.Log li a {
+    color: black;
+}
+
+
+
+/* Body-Contents */
+
+.Body-Content {
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.Content-Quote {
+    width: 100%;
+    align-items: center;
+
+}
+
+.Content-Quote img {
+    border-radius: 10px;
+    width: 45%;
+    float: left;
+    border: 2px solid rgb(81, 81, 81);
+    background-color: rgb(200, 200, 22);
+}
+
+.Content-Text li {
+    display: inline;
+    text-align: center;
+    font-style: italic;
+}
+
+.Sub-Text p {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.Quote h1 {
+    padding: 120px 0 0 0;
+    font-size: 80px;
+}
+
+
+
+
+/* Body Content Donations */
+
+.Body-Content-Donation {
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+
+.Body-Content-Donation h6 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 12px;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+
+
+
+/* About us page */
+
+.All-menus-2 {
+    background-color: rgb(10, 74, 134);
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 3px 15px 5px grey;
+}
+
+.Aboutus-list li img {
+    width: 100%;
+    height: 500px;
+    /* filter: blur(3px); */
+}
+
+.Aboutus-list li h1 {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.Aboutus-desc {
+    margin: auto;
+    margin-top: 60px;
+    width: 70%;
+}
+
+.Aboutus-list li h3,
+.Aboutus-list li p {
+    text-align: center;
+    font-size: 40px;
+}
+
+.border-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 5rem;
+}
+
+.centre-content {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+hr.new1 {
+    margin-top: 0.5rem;
+    border-top: 1px solid black;
+}
+
+.price-donation {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.pay-now-btn {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 290px;
+    border: 2px solid black;
+    margin: 5px 30px;
+}
+
+.pay-now-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.card-details {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.card-details button {
+    padding: 1rem 6rem;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card-details button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.works ul li ul.dropdown li {
+    display: block;
+}
+
+.works ul li ul.dropdown {
+    width: 250px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+.works ul li a:hover {
+    background: black;
+}
+
+.works ul li:hover ul.dropdown {
+    background: black;
+    display: block;
+}
+
+.Body-Content-Donation h6 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+.Content-List {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 100px;
+}
+
+.Donation-image img {
+    width: 100%;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 16px
+}
+
+.Donation-title h3 {
+    font-size: 24px;
+    padding-top: 10px;
+    color: black;
+}
+
+.Donation-List {
+    align-items: center;
+    justify-items: center;
+    margin: 0 30px;
+    width: 18rem;
+    border: 1px solid grey;
+    border-radius: 12px;
+    padding: 5px 20px;
+    margin-top: 30px;
+
+}
+
+.Donation-List li {
+    list-style: none;
+    font-size: 30px;
+}
+
+#detailsprod {
+    background-color: aquamarine;
+    color: white;
+    height: 30px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+#detailsprod:hover {
+    background-color: rgb(41, 41, 82);
+    color: white;
+    cursor: pointer;
+}
+
+.Paginate {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.Body-Content-Payment {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 120px;
+    padding-bottom: 100px;
+}
+
+.Body-Content-Payment h1 {
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+.Content-Payment-List img {
+    margin-top: 120px;
+    width: 45%;
+    margin-bottom: 100px;
+}
+
+.Content-Payment-List h2 {
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+
+.Content-Payment-List a {
+    padding: 20px 40px;
+    background-color: #5072EB;
+    margin-bottom: 200px;
+    color: white;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.Content-Payment-List a:hover {
+    background-color: #2042bc;
+    color: white;
+
+}
+
+.Body-Content-Profile {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 120px;
+    padding-bottom: 100px;
+}
+
+.Body-Content-Profile h1 {
+    margin-top: 90px;
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+.Content-Profile-List h2 {
+    font-size: 50px;
+}
+
+.Content-Profile-List h3 {
+    font-size: 40px;
+}
+
+.Username-Content,
+.Email-Content,
+.Phone-Content,
+.Password-Content {
+    margin-bottom: 70px;
+}
+
+.Password-Content {
+    margin-bottom: 120px;
+}
+
+.Content-Profile-List a {
+    padding: 20px 40px;
+    background-color: #5072EB;
+    color: white;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.Content-Profile-List a:hover {
+    background-color: #2042bc;
+    color: white;
+
+}
+
